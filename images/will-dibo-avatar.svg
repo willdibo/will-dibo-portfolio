@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Will Dibo monogram avatar</title>
+  <desc id="desc">The initials WD inside a pale green circular border on a deep green background.</desc>
+  <rect width="400" height="400" fill="#19383b"/>
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#6b8c81" stroke-width="1"/>
+  <circle cx="200" cy="200" r="152" fill="#234448"/>
+  <text x="193" y="230" fill="#edf3df" font-family="Georgia, 'Times New Roman', serif" font-size="120" text-anchor="middle" letter-spacing="-13">WD</text>
+  <path d="M170 282h60" stroke="#a6c29a" stroke-width="2"/>
+  <circle cx="336" cy="98" r="7" fill="#c7d8af"/>
+</svg>

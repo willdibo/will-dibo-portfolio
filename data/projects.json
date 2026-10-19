@@ -1,0 +1,188 @@
+[
+  {
+    "id": "interactive-portfolio",
+    "title": "Interactive Personal Portfolio",
+    "category": "Web",
+    "description": "A five-page portfolio with JSON-powered project cards, live category filters, keyword search, and a persistent color theme.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "JSON"
+    ],
+    "context": "Personal project · 2026",
+    "course": "MIS 4013 · Homework 2",
+    "tone": "sage",
+    "symbol": "{ }",
+    "visualLabel": "Business + technology",
+    "source": "",
+    "highlights": [
+      "Fetches a separate JSON file and creates project cards in JavaScript.",
+      "Combines category filtering with case-insensitive keyword search.",
+      "Shows project details in a Bootstrap modal and saves a light or dark theme across pages."
+    ],
+    "learning": "Separating content, presentation, and behavior while connecting asynchronous requests to accessible interface updates."
+  },
+  {
+    "id": "campus-connections",
+    "title": "Campus Connections",
+    "category": "Web",
+    "description": "A campus events page that organizes student opportunities, resources, and event details with semantic HTML and a custom Flexbox layout.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Flexbox"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 4013 · Individual HTML/CSS assignment",
+    "tone": "sand",
+    "symbol": "&",
+    "visualLabel": "Campus + community",
+    "source": "downloads/campus-connections.zip",
+    "highlights": [
+      "Groups three campus events in a Flexbox card layout.",
+      "Includes resource links and an in-page navigation menu.",
+      "Uses semantic sections, a skip link, and descriptive link labels."
+    ],
+    "learning": "Writing a structured HTML document and using a shared stylesheet to create a consistent layout without a CSS framework."
+  },
+  {
+    "id": "product-search",
+    "title": "Product Search & Filter",
+    "category": "Programming",
+    "description": "A C# console catalog that lets users find products by name, category, maximum price, or availability.",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Collections"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 3033 · HWK 1, Problem 4 · Download includes the complete four-project solution.",
+    "tone": "blue",
+    "symbol": "[ ]",
+    "visualLabel": "Search + selection",
+    "source": "downloads/business-programming.zip",
+    "highlights": [
+      "Stores 12 products in a collection of Product objects.",
+      "Supports partial name matching and case-insensitive category searches.",
+      "Filters by an inclusive maximum price or current stock status."
+    ],
+    "learning": "Modeling a simple catalog with a class, iterating through collections, and implementing independent filter functions."
+  },
+  {
+    "id": "campus-bites",
+    "title": "Campus Bites",
+    "category": "Web",
+    "description": "A Bootstrap practice site presenting campus dining ideas through a responsive navbar, restaurant cards, and a two-column information section.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 4013 · Bootstrap practice · A class exercise with illustrative restaurant content.",
+    "tone": "sage",
+    "symbol": "CB",
+    "visualLabel": "Responsive dining guide",
+    "source": "downloads/campus-bites.zip",
+    "highlights": [
+      "Uses a collapsible Bootstrap navbar and responsive grid columns.",
+      "Presents restaurant information in consistent Bootstrap cards.",
+      "Practices Bootstrap spacing, buttons, and form-control styling."
+    ],
+    "learning": "Using framework utilities to create responsive structure while keeping presentation in a separate custom stylesheet."
+  },
+  {
+    "id": "student-website",
+    "title": "Student Course Website",
+    "category": "Web",
+    "description": "An early two-page website introducing my studies, interests, goals, and current courses at the University of Oklahoma.",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 4013 · Student website exercise",
+    "tone": "plum",
+    "symbol": "OU",
+    "visualLabel": "A first personal site",
+    "source": "downloads/student-website.zip",
+    "highlights": [
+      "Links an About page and a dedicated courses page.",
+      "Uses a shared stylesheet and clear navigation between pages.",
+      "Includes a campus photograph with attribution and accessible image text."
+    ],
+    "learning": "Organizing a small website, maintaining relative file paths, and keeping navigation and styling consistent across documents."
+  },
+  {
+    "id": "shipping-calculator",
+    "title": "Shipping Calculator",
+    "category": "Programming",
+    "description": "A C# console application that calculates delivery charges using order value, shipping method, and rewards membership rules.",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Business logic"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 3033 · HWK 1, Problem 1 · Download includes the complete four-project solution.",
+    "tone": "sand",
+    "symbol": "$",
+    "visualLabel": "Rates + business rules",
+    "source": "downloads/business-programming.zip",
+    "highlights": [
+      "Supports Standard, Two-Day, and Overnight shipping choices.",
+      "Applies free Standard shipping at $75 and a rewards discount to eligible methods.",
+      "Rejects invalid input and formats monetary results consistently."
+    ],
+    "learning": "Translating written business requirements into conditional logic and reusable calculation functions."
+  },
+  {
+    "id": "restaurant-order",
+    "title": "Restaurant Order",
+    "category": "Programming",
+    "description": "A C# ordering exercise that stores menu selections and calculates a receipt with a subtotal, discount, and sales tax.",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Classes",
+      "Collections"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 3033 · HWK 1, Problem 2 · Download includes the complete four-project solution.",
+    "tone": "plum",
+    "symbol": "+",
+    "visualLabel": "Orders + calculations",
+    "source": "downloads/business-programming.zip",
+    "highlights": [
+      "Builds an order from a list of MenuItem objects.",
+      "Handles repeated selections and an empty order.",
+      "Applies a 10% discount at $30 and calculates 8.5% tax after the discount."
+    ],
+    "learning": "Combining classes, collections, and functions to produce a receipt whose displayed amounts reconcile."
+  },
+  {
+    "id": "registration-validator",
+    "title": "Account Registration Validator",
+    "category": "Programming",
+    "description": "A C# input-validation exercise that checks registration fields and explains every failed rule in one result.",
+    "technologies": [
+      "C#",
+      ".NET",
+      "Input validation"
+    ],
+    "context": "Coursework · 2026",
+    "course": "MIS 3033 · HWK 1, Problem 3 · Validation exercise; it does not store user accounts. Download includes the complete four-project solution.",
+    "tone": "blue",
+    "symbol": "✓",
+    "visualLabel": "Validation + feedback",
+    "source": "downloads/business-programming.zip",
+    "highlights": [
+      "Checks required names, assignment-specific email rules, and an age threshold.",
+      "Validates password length, uppercase letters, numbers, and exact confirmation.",
+      "Collects validation errors rather than stopping after the first failed rule."
+    ],
+    "learning": "Breaking validation into Boolean functions and giving clear feedback without confusing an exercise with a production authentication system."
+  }
+]
